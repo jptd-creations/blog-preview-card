@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #f6d050;
+
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 100vh;
+
+}
+
+.card {
+  display: grid;
+  align-items: center; 
+  justify-items: start; 
+  gap: 10px;
+  width: 500px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 10px 10px 8px 4px black;
+  padding: 20px;
+}
+
+.card .blog-img {
+  width: 100%;
+}
+
+.tag {
+  font-weight: 600;
+  background-color: #f5d150;
+  height: 30px;
+  width: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.blog-preview-text {
+  line-height: 1.5;
+  font-size: 18px;
+  color: #494949;
+}
+
+.blog-profile {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 12px;
+}
+
+.blog-profile p {
+  font-weight: 600;
+}
+
+.blog-profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 21px;
+  object-fit: cover;
+  background-position: center;
+}
